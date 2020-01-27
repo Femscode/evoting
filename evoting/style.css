@@ -1,0 +1,141 @@
+<style>
+body { 
+    background-color:rgba(255,255,255,0.1);
+     background-image:url(images/vote2.jpg);
+    background-size:100%;
+     box-sizing:border-box;
+    font-size:20px;
+    font-family:georgia;
+    color:white;
+    text-align:center;
+    text-shadow:1px 1px 1px black;
+    }
+p1 {
+    color:red;
+    text-shadow:1px 1px 1px white;
+}
+p2 {
+    color:green;
+    text-shadow:1px 1px 1px white;
+}
+form {
+    text-align:center;
+    border: solid black;
+    padding:20px 20px 20px;
+    border-color:rgb(133, 111, 230);
+    border-radius:20px;
+    border-top: 10px solid rgb(112, 112, 243);
+    border-bottom: 10px solid rgb(89, 89, 233);
+    border-top-style:solid;
+    border-top-width: 15px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 5px;
+    margin-left:20%;
+    margin-right:20%;
+    background-color:rgba(255,255,255,0.2);
+    font-size:30px;
+    font-family:georgia;
+} 
+.flex {
+    
+    box-sizing:border-box;
+    text-align:center;
+    border: solid black;
+    padding:20px 20px 20px;
+    border-color:rgb(133, 111, 230);
+    border-radius:20px;
+    border-top: 10px solid rgb(112, 112, 243);
+    border-bottom: 10px solid rgb(89, 89, 233);
+    border-top-style:solid;
+    border-top-width: 15px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 5px;
+    margin-left:20%;
+    margin-right:20%;
+    background-color:rgba(255,255,255,0.2);
+    font-size:30px;
+    font-family:georgia;
+} 
+form:hover {
+    background-color:rgba(255,255,255,0.5);
+}
+.right {
+    font-size:20px;
+    border:2px double black ;
+    float:left;
+    position:relative;
+    border-width:1px;
+    border-radius:5px;
+    padding:10px;
+    flex:50%;
+    text-align:center;
+
+}
+.left {
+    flex:50%;
+    float:right;
+    font-size:20px;
+    border:2px double black ;
+    position: relative;
+    border-width:1px;
+    border-radius:5px;
+    padding:10px;
+    width:310px;
+    text-align:center;
+
+}
+    input {
+        font-size:20px;
+        border:2px double black ;
+        border-width:1px;
+        border-radius:5px;
+        padding:10px;
+        width:310px;
+        text-align:center;
+        font-family:georgia;
+    }
+    option {
+        font-size:20px;
+        border:2px double black ;
+        border-width:2  px;
+        border-radius:20px;
+        padding:10px;
+        width:310px;
+        text-align:center;
+        font-family:georgia;
+    }
+    select {
+        font-size:20px;
+        border:2px double black ;
+        border-width:2  px;
+        border-radius:20px;
+        padding:10px;
+        width:310px;
+        text-align:center;
+        font-family:georgia;
+    }
+    .hover {
+        font-size:20px;
+        border:2px solid black ;
+        border-width:2  px;
+        border-radius:20px;
+        padding:10px;
+        width:310px;
+        text-align:center;
+        font-family:georgia;
+    
+    }
+    .hover:hover {
+        background-color:blue;
+    }
+</style>

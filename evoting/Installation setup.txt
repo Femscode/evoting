@@ -1,0 +1,13 @@
+INSTALLATION SET UP
+1) Copy and paste the folder evoting in the htdocs folder of your web server.
+
+2) go to phpmyadmin and create a new database or use your windows prompt command to create a new database
+3) Name the database evoting or any other name you wish to name it.
+3) Create a table in the database created(This is where all your users information get stored) and input the categories you want to informations from the users.
+4) Create another table in the database that will specifies all your categories on what or who you want to vote for in theie respectives departments.
+5) Edit the pdo.php file to the database you created and your server's username and password should also be editted
+6) Edit all tables in the signup.php and vote.php to your own table and categories you created.
+7) Edit all results in the result.php to the way you want it.
+7) Provided the above steps are duely followed everything should be working perfectly
+
+If you have any problem with the installation you can contact us at fasanyafemi@gmail.com.
